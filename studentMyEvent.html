@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Student</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<style>
+	h4{
+		margin-bottom: 0px;
+	}
+</style>
+<div class="container">
+	<nav class="navbar-fixed-top container navbar navbar-light bg-info">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand">The Logo</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li ><a href="student.html">Home</a></li>
+				<li class="active"><a href="studentMyEvent.html">My Events</a></li>
+				<li><a href="#progressReport">Progress Report</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+					role="button" aria-haspopup="true" aria-expanded="false">Notifications</a>
+					<div class="dropdown-menu">
+						<span class="dropdown-item-text">one</span>
+						<div role="separator" class="dropdown-divider">
+						</div>
+						<span class="dropdown-item-text">two</span>
+						<div role="separator" class="dropdown-divider">
+						</div>
+						<span class="dropdown-item-text">three</span>
+					</div>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">My Profile</a></li>
+					<li><a href="login.html">Log Out</a></li>
+				</ul>
+			</div>
+		</nav>
+		<script>
+			function register(){
+			}
+		</script>
+		<div id="allEvents"></div>
+		<br><br><br>
+		<h2 class="text-center">My Events</h2>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Event Name</th>
+					<th>Association Name</th>
+					<th>Event Date</th>
+					<th>Register</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Event 4</td>
+					<td>Association Name 4</td>
+					<td>Event date 4</td>
+					<td><button id="register" onclick="register()" class="btn btn-success">View Event</button></td>
+				</tr>
+				<tr>
+					<td>Event 5</td>
+					<td>Association Name 5</td>
+					<td>Event date 5</td>
+					<td><button id="register" onclick="register()" class="btn btn-success">View Event</button></td>
+				</tr>
+				<tr>
+					<td>Event 6</td>
+					<td>Association Name 6</td>
+					<td>Event date 6</td>
+					<td><button id="register" onclick="register()" class="btn btn-success">View Event</button></td>
+				</tr>
+			</tbody>
+		</table>
+				<!-- <tr class="row">
+					<td class="col-sm-9" style="padding-left: 80px;">
+						<h4>Event Name</h4><br>
+						Association Name<br>
+						Event Description
+					</td>
+					<td class="col-sm-3">
+						Event Date<br>
+						<small>Day</small>
+						<br>
+						<button id="register" onclick="register()" class="btn
+						btn-success">Register</button>
+					</td>
+				</tr>
+				<tr class="row">
+					<td class="col-sm-9" style="padding-left: 80px;">
+						<h4>Event Name</h4><br>
+						Association Name<br>
+						Event Description
+					</td>
+					<td class="col-sm-3">
+						Event Date<br>
+						<small>Day</small>
+						<br>
+						<button id="register" onclick="register()" class="btn
+						btn-success">Register</button>
+					</td>
+				</tr>
+				<tr class="row">
+					<td class="col-sm-9" style="padding-left: 80px;">
+						<h4>Event Name</h4><br>
+						Association Name<br>
+						Event Description
+					</td>
+					<td class="col-sm-3">
+						Event Date<br>
+						<small>Day</small>
+						<br>
+						<button id="register" onclick="register()" class="btn
+						btn-success">Register</button>
+					</td>
+				</tr>
+			</tbody>
+		</table> -->
+		<!-- <h2 id="myEvents" class="text-center">My Events</h2>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Event Name</th>
+					<th>Association Name</th>
+					<th>Event Date</th>
+					<th>Register</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Event 1</td>
+					<td>Association Name 1</td>
+					<td>Event date 1</td>
+					<td><button id="register" onclick="register()" class="btn btn-success">View Event</button></td>
+				</tr>
+				<tr>
+					<td>Event 2</td>
+					<td>Association Name 2</td>
+					<td>Event date 2</td>
+					<td><button id="register" onclick="register()" class="btn btn-success">View Event</button></td>
+				</tr>
+				<tr>
+					<td>Event 3</td>
+					<td>Association Name 3</td>
+					<td>Event date 3</td>
+					<td><button id="register" onclick="register()" class="btn btn-success">View Event</button></td>
+				</tr>
+			</tbody>
+		</table> -->
+	</body>
+	</html>
